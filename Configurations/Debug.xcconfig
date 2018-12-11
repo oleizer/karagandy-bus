@@ -1,0 +1,15 @@
+//
+//  Debug.xcconfig
+//  KaragandyBus
+//
+//  Created by Олег Лейзер on 11/12/2018.
+//  Copyright © 2018 Олег Лейзер. All rights reserved.
+//
+
+#include "Pods/Target Support Files/Pods-KaragandyBus/Pods-KaragandyBus.debug.xcconfig"
+#include "iOS.xcconfig"
+
+// Product
+PRODUCT_BUNDLE_IDENTIFIER = kz.idev.karagandybus
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+SUPPORTED_PLATFORMS = iphonesimulator iphoneos

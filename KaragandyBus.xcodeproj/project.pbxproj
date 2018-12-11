@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50593307255595674B27E0BA /* Pods_KaragandyBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F21477ECEDCCE933087A6 /* Pods_KaragandyBus.framework */; };
+		660796EE06936D40A6F9E823 /* Pods_KaragandyBusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688683985F0362F5FD8961C1 /* Pods_KaragandyBusTests.framework */; };
+		A68FC31B21BFC99D0019C95E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FC31A21BFC99D0019C95E /* MapViewController.swift */; };
+		A68FC31E21BFC9BC0019C95E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FC31D21BFC9BC0019C95E /* MapView.swift */; };
+		A68FC32121BFCC500019C95E /* MapAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FC32021BFCC500019C95E /* MapAssembly.swift */; };
+		A68FC32321BFCC570019C95E /* MapDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FC32221BFCC570019C95E /* MapDataFlow.swift */; };
+		A68FC32521BFCC5D0019C95E /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FC32421BFCC5D0019C95E /* MapPresenter.swift */; };
+		A68FC32721BFCC640019C95E /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FC32621BFCC640019C95E /* MapInteractor.swift */; };
+		A68FC32A21BFCC950019C95E /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FC32921BFCC950019C95E /* Assembly.swift */; };
+		A68FC32C21BFCE360019C95E /* MapProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FC32B21BFCE360019C95E /* MapProvider.swift */; };
 		A6B0766921BFA0D6003D51F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0766821BFA0D6003D51F3 /* AppDelegate.swift */; };
 		A6B0766B21BFA0D6003D51F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0766A21BFA0D6003D51F3 /* ViewController.swift */; };
 		A6B0766E21BFA0D6003D51F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B0766C21BFA0D6003D51F3 /* Main.storyboard */; };
@@ -14,6 +24,16 @@
 		A6B0767321BFA0D7003D51F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B0767121BFA0D7003D51F3 /* LaunchScreen.storyboard */; };
 		A6B0767E21BFA0D7003D51F3 /* KaragandyBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0767D21BFA0D7003D51F3 /* KaragandyBusTests.swift */; };
 		A6B0768921BFA0D7003D51F3 /* KaragandyBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0768821BFA0D7003D51F3 /* KaragandyBusUITests.swift */; };
+		A6B076A221BFA419003D51F3 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B076A121BFA419003D51F3 /* LocationProvider.swift */; };
+		A6B076AE21BFAB7B003D51F3 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = A6B076AD21BFAB7B003D51F3 /* Colors.json */; };
+		A6B076B021BFABA7003D51F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B076AF21BFABA7003D51F3 /* Localizable.strings */; };
+		A6B076B421BFABD3003D51F3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B076B321BFABD3003D51F3 /* Fonts.swift */; };
+		A6B076B621BFABD8003D51F3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B076B521BFABD8003D51F3 /* Colors.swift */; };
+		A6B076B821BFABE3003D51F3 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B076B721BFABE3003D51F3 /* Localizable.swift */; };
+		A6B076BA21BFABF1003D51F3 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B076B921BFABF1003D51F3 /* Images.swift */; };
+		A6B076BC21BFAD91003D51F3 /* LocationProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B076BB21BFAD91003D51F3 /* LocationProviderTests.swift */; };
+		A6B076BE21BFC11C003D51F3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B076BD21BFC11C003D51F3 /* InterfaceController.swift */; };
+		EB78CCC88C757BED02BB44D6 /* Pods_KaragandyBusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963AF98AA7BFFA747F5E0992 /* Pods_KaragandyBusUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B3EF944A94401431C5B02B8 /* Pods-KaragandyBusUITests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaragandyBusUITests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-KaragandyBusUITests/Pods-KaragandyBusUITests.adhoc.xcconfig"; sourceTree = "<group>"; };
+		3BC776F4D2511695C56B5071 /* Pods-KaragandyBus.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaragandyBus.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-KaragandyBus/Pods-KaragandyBus.distribution.xcconfig"; sourceTree = "<group>"; };
+		58B334827531493F33AC66BB /* Pods-KaragandyBusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaragandyBusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaragandyBusUITests/Pods-KaragandyBusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DF934966B64BBC8E41D6DB8 /* Pods-KaragandyBusUITests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaragandyBusUITests.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-KaragandyBusUITests/Pods-KaragandyBusUITests.distribution.xcconfig"; sourceTree = "<group>"; };
+		688683985F0362F5FD8961C1 /* Pods_KaragandyBusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaragandyBusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7163E6FC31A6560C23880645 /* Pods-KaragandyBusTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaragandyBusTests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-KaragandyBusTests/Pods-KaragandyBusTests.adhoc.xcconfig"; sourceTree = "<group>"; };
+		963AF98AA7BFFA747F5E0992 /* Pods_KaragandyBusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaragandyBusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68FC31A21BFC99D0019C95E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A68FC31D21BFC9BC0019C95E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A68FC32021BFCC500019C95E /* MapAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAssembly.swift; sourceTree = "<group>"; };
+		A68FC32221BFCC570019C95E /* MapDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataFlow.swift; sourceTree = "<group>"; };
+		A68FC32421BFCC5D0019C95E /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		A68FC32621BFCC640019C95E /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		A68FC32921BFCC950019C95E /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		A68FC32B21BFCE360019C95E /* MapProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProvider.swift; sourceTree = "<group>"; };
 		A6B0766521BFA0D6003D51F3 /* KaragandyBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaragandyBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B0766821BFA0D6003D51F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6B0766A21BFA0D6003D51F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +82,23 @@
 		A6B0768421BFA0D7003D51F3 /* KaragandyBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaragandyBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B0768821BFA0D7003D51F3 /* KaragandyBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaragandyBusUITests.swift; sourceTree = "<group>"; };
 		A6B0768A21BFA0D7003D51F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B0769E21BFA211003D51F3 /* KaragandyLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KaragandyLocation.gpx; sourceTree = "<group>"; };
+		A6B076A121BFA419003D51F3 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		A6B076A521BFA576003D51F3 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		A6B076A621BFA57F003D51F3 /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		A6B076A721BFA58F003D51F3 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		A6B076AD21BFAB7B003D51F3 /* Colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
+		A6B076AF21BFABA7003D51F3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A6B076B321BFABD3003D51F3 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		A6B076B521BFABD8003D51F3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A6B076B721BFABE3003D51F3 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		A6B076B921BFABF1003D51F3 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		A6B076BB21BFAD91003D51F3 /* LocationProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProviderTests.swift; sourceTree = "<group>"; };
+		A6B076BD21BFC11C003D51F3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AA2F21477ECEDCCE933087A6 /* Pods_KaragandyBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaragandyBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B315ECE45BC55FEBCF77BA70 /* Pods-KaragandyBus.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaragandyBus.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-KaragandyBus/Pods-KaragandyBus.adhoc.xcconfig"; sourceTree = "<group>"; };
+		BB334D0EE5101129C42261A3 /* Pods-KaragandyBusTests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaragandyBusTests.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-KaragandyBusTests/Pods-KaragandyBusTests.distribution.xcconfig"; sourceTree = "<group>"; };
+		FB66688A61E738758ED69300 /* Pods-KaragandyBusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaragandyBusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaragandyBusTests/Pods-KaragandyBusTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50593307255595674B27E0BA /* Pods_KaragandyBus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660796EE06936D40A6F9E823 /* Pods_KaragandyBusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +122,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB78CCC88C757BED02BB44D6 /* Pods_KaragandyBusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A68FC31921BFC9910019C95E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A68FC31F21BFCC350019C95E /* Provider */,
+				A68FC31C21BFC9AB0019C95E /* View */,
+				A68FC32221BFCC570019C95E /* MapDataFlow.swift */,
+				A68FC32021BFCC500019C95E /* MapAssembly.swift */,
+				A68FC32621BFCC640019C95E /* MapInteractor.swift */,
+				A68FC32421BFCC5D0019C95E /* MapPresenter.swift */,
+				A68FC31A21BFC99D0019C95E /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		A68FC31C21BFC9AB0019C95E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A68FC31D21BFC9BC0019C95E /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A68FC31F21BFCC350019C95E /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				A68FC32B21BFCE360019C95E /* MapProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		A68FC32821BFCC8B0019C95E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A68FC32921BFCC950019C95E /* Assembly.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		A6B0765C21BFA0D6003D51F3 = {
 			isa = PBXGroup;
 			children = (
-				A6B0766721BFA0D6003D51F3 /* KaragandyBus */,
+				A6B076A321BFA546003D51F3 /* Configurations */,
+				A6B0769721BFA0E9003D51F3 /* Resources */,
+				A6B0769621BFA0E1003D51F3 /* Support */,
+				A6B0766721BFA0D6003D51F3 /* Sources */,
 				A6B0767C21BFA0D7003D51F3 /* KaragandyBusTests */,
 				A6B0768721BFA0D7003D51F3 /* KaragandyBusUITests */,
 				A6B0766621BFA0D6003D51F3 /* Products */,
+				C0A1F2EB94CE0A2AE102FCD2 /* Pods */,
+				AD2DC5A36B0CCA6DC427028B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,17 +192,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6B0766721BFA0D6003D51F3 /* KaragandyBus */ = {
+		A6B0766721BFA0D6003D51F3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A6B0766821BFA0D6003D51F3 /* AppDelegate.swift */,
+				A68FC32821BFCC8B0019C95E /* Protocols */,
+				A6B076B121BFABBF003D51F3 /* Constants */,
+				A6B076A021BFA3AD003D51F3 /* ApplicationLayer */,
+				A6B0769F21BFA3A5003D51F3 /* Features */,
 				A6B0766A21BFA0D6003D51F3 /* ViewController.swift */,
-				A6B0766C21BFA0D6003D51F3 /* Main.storyboard */,
-				A6B0766F21BFA0D7003D51F3 /* Assets.xcassets */,
-				A6B0767121BFA0D7003D51F3 /* LaunchScreen.storyboard */,
-				A6B0767421BFA0D7003D51F3 /* Info.plist */,
+				A6B076A121BFA419003D51F3 /* LocationProvider.swift */,
 			);
-			path = KaragandyBus;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		A6B0767C21BFA0D7003D51F3 /* KaragandyBusTests */ = {
@@ -112,6 +210,7 @@
 			children = (
 				A6B0767D21BFA0D7003D51F3 /* KaragandyBusTests.swift */,
 				A6B0767F21BFA0D7003D51F3 /* Info.plist */,
+				A6B076BB21BFAD91003D51F3 /* LocationProviderTests.swift */,
 			);
 			path = KaragandyBusTests;
 			sourceTree = "<group>";
@@ -125,6 +224,114 @@
 			path = KaragandyBusUITests;
 			sourceTree = "<group>";
 		};
+		A6B0769621BFA0E1003D51F3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0767421BFA0D7003D51F3 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A6B0769721BFA0E9003D51F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6B076B221BFABC4003D51F3 /* Fonts */,
+				A6B0769D21BFA1FC003D51F3 /* Locations */,
+				A6B0769821BFA0F2003D51F3 /* Storyboards */,
+				A6B0766F21BFA0D7003D51F3 /* Assets.xcassets */,
+				A6B076AD21BFAB7B003D51F3 /* Colors.json */,
+				A6B076AF21BFABA7003D51F3 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6B0769821BFA0F2003D51F3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0766C21BFA0D6003D51F3 /* Main.storyboard */,
+				A6B0767121BFA0D7003D51F3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A6B0769D21BFA1FC003D51F3 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0769E21BFA211003D51F3 /* KaragandyLocation.gpx */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		A6B0769F21BFA3A5003D51F3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A68FC31921BFC9910019C95E /* Map */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A6B076A021BFA3AD003D51F3 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0766821BFA0D6003D51F3 /* AppDelegate.swift */,
+				A6B076BD21BFC11C003D51F3 /* InterfaceController.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		A6B076A321BFA546003D51F3 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				A6B076A521BFA576003D51F3 /* Project.xcconfig */,
+				A6B076A621BFA57F003D51F3 /* iOS.xcconfig */,
+				A6B076A721BFA58F003D51F3 /* Debug.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		A6B076B121BFABBF003D51F3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A6B076B321BFABD3003D51F3 /* Fonts.swift */,
+				A6B076B521BFABD8003D51F3 /* Colors.swift */,
+				A6B076B721BFABE3003D51F3 /* Localizable.swift */,
+				A6B076B921BFABF1003D51F3 /* Images.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A6B076B221BFABC4003D51F3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AD2DC5A36B0CCA6DC427028B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F21477ECEDCCE933087A6 /* Pods_KaragandyBus.framework */,
+				688683985F0362F5FD8961C1 /* Pods_KaragandyBusTests.framework */,
+				963AF98AA7BFFA747F5E0992 /* Pods_KaragandyBusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0A1F2EB94CE0A2AE102FCD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BC776F4D2511695C56B5071 /* Pods-KaragandyBus.distribution.xcconfig */,
+				B315ECE45BC55FEBCF77BA70 /* Pods-KaragandyBus.adhoc.xcconfig */,
+				FB66688A61E738758ED69300 /* Pods-KaragandyBusTests.debug.xcconfig */,
+				BB334D0EE5101129C42261A3 /* Pods-KaragandyBusTests.distribution.xcconfig */,
+				7163E6FC31A6560C23880645 /* Pods-KaragandyBusTests.adhoc.xcconfig */,
+				58B334827531493F33AC66BB /* Pods-KaragandyBusUITests.debug.xcconfig */,
+				5DF934966B64BBC8E41D6DB8 /* Pods-KaragandyBusUITests.distribution.xcconfig */,
+				0B3EF944A94401431C5B02B8 /* Pods-KaragandyBusUITests.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +339,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6B0768D21BFA0D7003D51F3 /* Build configuration list for PBXNativeTarget "KaragandyBus" */;
 			buildPhases = (
-				A6B0766121BFA0D6003D51F3 /* Sources */,
+				1649263B6DE10422CBAC456D /* [CP] Check Pods Manifest.lock */,
 				A6B0766221BFA0D6003D51F3 /* Frameworks */,
 				A6B0766321BFA0D6003D51F3 /* Resources */,
+				A6B076A821BFA78F003D51F3 /* Start measure build time */,
+				A6B0766121BFA0D6003D51F3 /* Sources */,
+				A6B076A921BFA7A3003D51F3 /* Send compile time stat */,
+				A6B076AA21BFA7B8003D51F3 /* Send build time stat */,
+				4C57815F07B73DEAD3B10F0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +361,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6B0769021BFA0D7003D51F3 /* Build configuration list for PBXNativeTarget "KaragandyBusTests" */;
 			buildPhases = (
+				B9DF53969663BED9FCF66B75 /* [CP] Check Pods Manifest.lock */,
 				A6B0767521BFA0D7003D51F3 /* Sources */,
 				A6B0767621BFA0D7003D51F3 /* Frameworks */,
 				A6B0767721BFA0D7003D51F3 /* Resources */,
+				60CAEA8B1169DEE615D08B78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +381,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6B0769321BFA0D7003D51F3 /* Build configuration list for PBXNativeTarget "KaragandyBusUITests" */;
 			buildPhases = (
+				A81D5F480643053AF43BA890 /* [CP] Check Pods Manifest.lock */,
 				A6B0768021BFA0D7003D51F3 /* Sources */,
 				A6B0768121BFA0D7003D51F3 /* Frameworks */,
 				A6B0768221BFA0D7003D51F3 /* Resources */,
@@ -206,10 +421,10 @@
 			};
 			buildConfigurationList = A6B0766021BFA0D6003D51F3 /* Build configuration list for PBXProject "KaragandyBus" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				ru,
 				Base,
 			);
 			mainGroup = A6B0765C21BFA0D6003D51F3;
@@ -229,7 +444,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B076B021BFABA7003D51F3 /* Localizable.strings in Resources */,
 				A6B0767321BFA0D7003D51F3 /* LaunchScreen.storyboard in Resources */,
+				A6B076AE21BFAB7B003D51F3 /* Colors.json in Resources */,
 				A6B0767021BFA0D7003D51F3 /* Assets.xcassets in Resources */,
 				A6B0766E21BFA0D6003D51F3 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +468,203 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1649263B6DE10422CBAC456D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaragandyBus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C57815F07B73DEAD3B10F0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KaragandyBus/Pods-KaragandyBus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaragandyBus/Pods-KaragandyBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60CAEA8B1169DEE615D08B78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KaragandyBusTests/Pods-KaragandyBusTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaragandyBusTests/Pods-KaragandyBusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B076A821BFA78F003D51F3 /* Start measure build time */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start measure build time";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh ciScripts/startBuildTimeMeasure.sh\n";
+		};
+		A6B076A921BFA7A3003D51F3 /* Send compile time stat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Send compile time stat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh ciScripts/sendCompileTimeStat.sh compile\n";
+		};
+		A6B076AA21BFA7B8003D51F3 /* Send build time stat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Send build time stat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh ciScripts/sendCompileTimeStat.sh build\n";
+		};
+		A81D5F480643053AF43BA890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaragandyBusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DF53969663BED9FCF66B75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaragandyBusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6B0766121BFA0D6003D51F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68FC32321BFCC570019C95E /* MapDataFlow.swift in Sources */,
+				A68FC32A21BFCC950019C95E /* Assembly.swift in Sources */,
+				A6B076BA21BFABF1003D51F3 /* Images.swift in Sources */,
+				A68FC32521BFCC5D0019C95E /* MapPresenter.swift in Sources */,
+				A6B076BE21BFC11C003D51F3 /* InterfaceController.swift in Sources */,
+				A68FC32C21BFCE360019C95E /* MapProvider.swift in Sources */,
+				A6B076B421BFABD3003D51F3 /* Fonts.swift in Sources */,
+				A68FC32721BFCC640019C95E /* MapInteractor.swift in Sources */,
+				A6B076B621BFABD8003D51F3 /* Colors.swift in Sources */,
+				A68FC32121BFCC500019C95E /* MapAssembly.swift in Sources */,
+				A68FC31B21BFC99D0019C95E /* MapViewController.swift in Sources */,
+				A6B076A221BFA419003D51F3 /* LocationProvider.swift in Sources */,
 				A6B0766B21BFA0D6003D51F3 /* ViewController.swift in Sources */,
+				A68FC31E21BFC9BC0019C95E /* MapView.swift in Sources */,
+				A6B076B821BFABE3003D51F3 /* Localizable.swift in Sources */,
 				A6B0766921BFA0D6003D51F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +674,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B0767E21BFA0D7003D51F3 /* KaragandyBusTests.swift in Sources */,
+				A6B076BC21BFAD91003D51F3 /* LocationProviderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +723,7 @@
 /* Begin XCBuildConfiguration section */
 		A6B0768B21BFA0D7003D51F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B076A521BFA576003D51F3 /* Project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -363,7 +773,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -373,7 +783,7 @@
 			};
 			name = Debug;
 		};
-		A6B0768C21BFA0D7003D51F3 /* Release */ = {
+		A6B0768C21BFA0D7003D51F3 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,7 +828,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -426,15 +836,17 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Distribution;
 		};
 		A6B0768E21BFA0D7003D51F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B076A721BFA58F003D51F3 /* Debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AC6F95FHB4;
-				INFOPLIST_FILE = KaragandyBus/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,17 +854,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kz.idev.KaragandyBus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		A6B0768F21BFA0D7003D51F3 /* Release */ = {
+		A6B0768F21BFA0D7003D51F3 /* Distribution */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC776F4D2511695C56B5071 /* Pods-KaragandyBus.distribution.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AC6F95FHB4;
-				INFOPLIST_FILE = KaragandyBus/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,14 +874,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kz.idev.KaragandyBus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Release;
+			name = Distribution;
 		};
 		A6B0769121BFA0D7003D51F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB66688A61E738758ED69300 /* Pods-KaragandyBusTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AC6F95FHB4;
@@ -485,10 +900,11 @@
 			};
 			name = Debug;
 		};
-		A6B0769221BFA0D7003D51F3 /* Release */ = {
+		A6B0769221BFA0D7003D51F3 /* Distribution */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB334D0EE5101129C42261A3 /* Pods-KaragandyBusTests.distribution.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AC6F95FHB4;
@@ -504,12 +920,13 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaragandyBus.app/KaragandyBus";
 			};
-			name = Release;
+			name = Distribution;
 		};
 		A6B0769421BFA0D7003D51F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B334827531493F33AC66BB /* Pods-KaragandyBusUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AC6F95FHB4;
 				INFOPLIST_FILE = KaragandyBusUITests/Info.plist;
@@ -526,10 +943,11 @@
 			};
 			name = Debug;
 		};
-		A6B0769521BFA0D7003D51F3 /* Release */ = {
+		A6B0769521BFA0D7003D51F3 /* Distribution */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF934966B64BBC8E41D6DB8 /* Pods-KaragandyBusUITests.distribution.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AC6F95FHB4;
 				INFOPLIST_FILE = KaragandyBusUITests/Info.plist;
@@ -544,7 +962,125 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = KaragandyBus;
 			};
-			name = Release;
+			name = Distribution;
+		};
+		A6B0769921BFA15E003D51F3 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		A6B0769A21BFA15E003D51F3 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B315ECE45BC55FEBCF77BA70 /* Pods-KaragandyBus.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6F95FHB4;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kz.idev.KaragandyBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = AdHoc;
+		};
+		A6B0769B21BFA15E003D51F3 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7163E6FC31A6560C23880645 /* Pods-KaragandyBusTests.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6F95FHB4;
+				INFOPLIST_FILE = KaragandyBusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kz.idev.KaragandyBusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaragandyBus.app/KaragandyBus";
+			};
+			name = AdHoc;
+		};
+		A6B0769C21BFA15E003D51F3 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3EF944A94401431C5B02B8 /* Pods-KaragandyBusUITests.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6F95FHB4;
+				INFOPLIST_FILE = KaragandyBusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kz.idev.KaragandyBusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaragandyBus;
+			};
+			name = AdHoc;
 		};
 /* End XCBuildConfiguration section */
 
@@ -553,37 +1089,41 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6B0768B21BFA0D7003D51F3 /* Debug */,
-				A6B0768C21BFA0D7003D51F3 /* Release */,
+				A6B0768C21BFA0D7003D51F3 /* Distribution */,
+				A6B0769921BFA15E003D51F3 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Distribution;
 		};
 		A6B0768D21BFA0D7003D51F3 /* Build configuration list for PBXNativeTarget "KaragandyBus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6B0768E21BFA0D7003D51F3 /* Debug */,
-				A6B0768F21BFA0D7003D51F3 /* Release */,
+				A6B0768F21BFA0D7003D51F3 /* Distribution */,
+				A6B0769A21BFA15E003D51F3 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Distribution;
 		};
 		A6B0769021BFA0D7003D51F3 /* Build configuration list for PBXNativeTarget "KaragandyBusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6B0769121BFA0D7003D51F3 /* Debug */,
-				A6B0769221BFA0D7003D51F3 /* Release */,
+				A6B0769221BFA0D7003D51F3 /* Distribution */,
+				A6B0769B21BFA15E003D51F3 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Distribution;
 		};
 		A6B0769321BFA0D7003D51F3 /* Build configuration list for PBXNativeTarget "KaragandyBusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6B0769421BFA0D7003D51F3 /* Debug */,
-				A6B0769521BFA0D7003D51F3 /* Release */,
+				A6B0769521BFA0D7003D51F3 /* Distribution */,
+				A6B0769C21BFA15E003D51F3 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Distribution;
 		};
 /* End XCConfigurationList section */
 	};

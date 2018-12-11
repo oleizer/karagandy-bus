@@ -1,0 +1,16 @@
+//
+//  Project.xcconfig
+//  KaragandyBus
+//
+//  Created by Олег Лейзер on 11/12/2018.
+//  Copyright © 2018 Олег Лейзер. All rights reserved.
+//
+
+// Product
+PRODUCT_NAME = KaragandyBus
+PRODUCT_DISPLAY_NAME = Автобусы Караганды
+PRODUCT_IDENTIFIER = karagandybus
+PRODUCT_VERSION = 1.0.1
+
+// Swift flags
+SWIFT_VERSION = 4.2
