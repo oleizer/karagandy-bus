@@ -6,5 +6,10 @@
 //  Copyright © 2018 Олег Лейзер. All rights reserved.
 //
 
-// Configuration settings file format documentation can be found at:
-// https://help.apple.com/xcode/#/dev745c5c974
+// Compiler
+SDKROOT = iphoneos
+IPHONEOS_DEPLOYMENT_TARGET = 10.0
+TARGETED_DEVICE_FAMILY = 1
+
+// Swift flags
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
